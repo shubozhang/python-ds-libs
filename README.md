@@ -7,7 +7,7 @@ Anaconda is used to run Jupyter
 $conda update conda
 
 # step 2: create an virtual environment
-$conda create -n <python-ds-libs> python=3.7.1 anaconda
+$conda create -n <python-ds-libs> python=3.7.1 anaconda -y
 
 # step 3: activate venv
 $conda activate python-ds-libs
