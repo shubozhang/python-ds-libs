@@ -22,6 +22,20 @@ $pip install -r requirements.txt
 $jupyter notebook
 ```
 
+# Misellaneous
+1. Jupyter can't find lib which has already been installed.
+```
+# step 1:
+$pip install matplotlib
+
+# step 2: check the lib path that already satisfied.
+
+# step 3: add below code to jupyter notebook 
+import sys
+sys.path.append('/home/ec2-user/.local/lib/python3.7/site-packages')
+```
+
+
 To deactivate or delete venv
 ```
 # Deactivate your virtual env
